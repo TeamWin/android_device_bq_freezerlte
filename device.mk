@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/fstab.mt6735:root/fstab.mt6735 \
     $(LOCAL_PATH)/recovery/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc \
     $(LOCAL_PATH)/recovery/ueventd.mt6735.rc:root/ueventd.mt6735.rc
-    $(LOCAL_PATH)/recovery/recovery.fstab:root/etc/recovery.fstab
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
