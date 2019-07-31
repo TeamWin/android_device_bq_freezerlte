@@ -44,6 +44,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 
 # TWRP-Specific
+TARGET_RECOVERY_FSTAB := device/bq/freezerlte/recovery/etc/twrp.fstab
 TW_THEME := landscape_hdpi
 TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_INCLUDE_CRYPTO := true
