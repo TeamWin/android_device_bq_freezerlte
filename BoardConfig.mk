@@ -45,7 +45,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 
 # TWRP-Specific
 TARGET_RECOVERY_FSTAB := device/bq/freezerlte/recovery/etc/twrp.fstab
-TW_THEME := landscape_hdpi
+TW_THEME := portrait_hdpi
 TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_USE_SYSTEM_VOLD := true
