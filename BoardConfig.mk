@@ -44,6 +44,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 
 # TWRP-Specific
+RECOVERY_TOUCHSCREEN_FLIP_X := true
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 TARGET_RECOVERY_FSTAB := device/bq/freezerlte/recovery/etc/twrp.fstab
 TW_THEME := portrait_hdpi
